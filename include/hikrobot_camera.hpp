@@ -94,8 +94,8 @@ namespace camera
         handle = NULL;
 
         //********** 读取待设置的摄像头参数 第三个参数是默认值 yaml文件未给出该值时生效 ********************************/
-        node.param("width", width, 3072);
-        node.param("height", height, 2048);
+        node.param("width", width, 1280);
+        node.param("height", height, 960);
         node.param("FrameRateEnable", FrameRateEnable, false);
         node.param("FrameRate", FrameRate, 10);
         node.param("BurstFrameCount", BurstFrameCount, 10); // 一次触发采集的次数
