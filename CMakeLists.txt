@@ -50,3 +50,14 @@ src/hikrobot_camera.cpp)
    XmlParser_gcc421_v3_0
    X11
  )
+
+
+
+add_executable(create_intrinsics
+  src/create_intrinsics.cpp
+)
+
+target_link_libraries(create_intrinsics
+  ${catkin_LIBRARIES}
+  ${OpenCV_LIBRARIES}
+)
