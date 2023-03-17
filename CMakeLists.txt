@@ -18,6 +18,7 @@ catkin_package(
 )
 
 find_package(OpenCV 3.2.0 REQUIRED)
+# find_package(OpenCV 4 REQUIRED)
 
 include_directories(
   ${catkin_INCLUDE_DIRS}
